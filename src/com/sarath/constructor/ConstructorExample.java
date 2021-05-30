@@ -11,8 +11,7 @@ public class ConstructorExample {
 
     System.out.println(area(rectangle));
 
-   // System.out.println(area(rectangle1));
-
+    // System.out.println(area(rectangle1));
 
   }
 

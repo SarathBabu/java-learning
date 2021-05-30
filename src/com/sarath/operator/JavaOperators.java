@@ -1,7 +1,5 @@
 package com.sarath.operator;
 
-import java.util.List;
-
 public class JavaOperators {
 
   public static void main(String[] args) {
@@ -33,8 +31,6 @@ public class JavaOperators {
 
     int z = 23 < sum ? 34 : 67;
     System.out.println(z);
-
-
 
 
   }

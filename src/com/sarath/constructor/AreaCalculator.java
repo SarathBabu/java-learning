@@ -1,8 +1,5 @@
 package com.sarath.constructor;
 
-import com.sarath.methodoverloading.Circle;
-import com.sarath.methodoverloading.Square;
-
 public class AreaCalculator {
 
   private static final float PI = 3.14f;

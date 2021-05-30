@@ -19,7 +19,5 @@ public class PrimitiveDataTypes {
     System.out.println("Byte " + h);
   }
 
-  
-
 
 }

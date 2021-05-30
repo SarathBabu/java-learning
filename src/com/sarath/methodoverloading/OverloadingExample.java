@@ -1,8 +1,6 @@
 package com.sarath.methodoverloading;
 
 
-import com.sarath.inheritance.Manager;
-
 public class OverloadingExample {
 
   public static void main(String[] args) {
@@ -17,9 +15,7 @@ public class OverloadingExample {
     rectangle.setBreadth(34);
     rectangle.setWith(27);
 
-    AreaCalculator calculator  = new AreaCalculator();
-
-
+    AreaCalculator calculator = new AreaCalculator();
 
     System.out.printf("Area of circle = %d\n", calculator.area(circle));
     System.out.printf("Area of rectangle = %d\n", calculator.area(rectangle));

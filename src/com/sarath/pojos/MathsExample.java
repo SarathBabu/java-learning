@@ -6,7 +6,6 @@ public class MathsExample {
 
     System.out.println(MyMaths.PI);
 
-
     System.out.println(MyMaths.PI);
   }
 

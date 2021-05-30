@@ -27,9 +27,7 @@ public class Cart {
     retailCalculator.getTax(productsInTheCart.get(0).fst);
     retailCalculator.getCess(BigDecimal.valueOf(1244L));
 
-
     // finalization
-
 
   }
 

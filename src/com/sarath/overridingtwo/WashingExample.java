@@ -7,7 +7,7 @@ public class WashingExample {
     String[] cloths = new String[10];
 
     WashingMachine washingMachine = new WashingMachine();
-   // washingMachine.wash(cloths);
+    // washingMachine.wash(cloths);
 
     washingMachine = new NewGenWashingMachine();
     washingMachine.wash(cloths);

@@ -1,10 +1,6 @@
 package com.sarath.strings;
 
 import java.math.BigDecimal;
-import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
 public class JavaStrings {
 

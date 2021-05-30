@@ -9,8 +9,6 @@ public class PerformEncryption {
 
     Encryptor encryptor = new Encryptor();
 
-
-
     encryptor.setEncryptionKey("My encryption key");
     encryptor.setSelectedAlgorithm(RSA);
     String encryptedString = encryptor.encrypt("Hello World");

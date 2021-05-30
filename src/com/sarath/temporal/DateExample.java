@@ -1,15 +1,11 @@
 package com.sarath.temporal;
 
-import java.io.BufferedReader;
-import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.TimeZone;
 
 public class DateExample {
 
@@ -35,7 +31,7 @@ public class DateExample {
 //
 //    Date dateToStore = new Date();
 
- //   dateFromMillis.getTime(); // Store
+    //   dateFromMillis.getTime(); // Store
     // store
 
     Date dateFromMillis2 = new Date(1700000000000L);
@@ -47,18 +43,16 @@ public class DateExample {
 //    Calendar calendar1 = Calendar.getInstance(TimeZone.getTimeZone("GMT+2:00"));
 //    System.out.println(calendar1.getTime());
 
-
-   // calendar.add(Calendar.DATE, 100);
+    // calendar.add(Calendar.DATE, 100);
     //calendar.add(Calendar.MONTH, -100);
 
-   // calendar.set(Calendar.DAY_OF_MONTH, 29);
+    // calendar.set(Calendar.DAY_OF_MONTH, 29);
     calendar.set(Calendar.MONTH, 1000);
     System.out.println(calendar.getTime());
 
     System.out.println(calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
 
     System.out.println(calendar.getTimeZone());
-
 
 //    BigInteger value = BigInteger.valueOf(23L);  // Immutable
 //    BigInteger newValue  = value.add(new BigInteger("24"));
@@ -67,17 +61,14 @@ public class DateExample {
 
     GregorianCalendar calendar1 = new GregorianCalendar();
 
-
-
     // LocalDate
-    LocalDate localDate =  LocalDate.now();
+    LocalDate localDate = LocalDate.now();
     System.out.println(localDate);
 
     LocalDate newLocaldtae = LocalDate.parse("2021-05-29");   // yyyy-MM-DD
     System.out.println(newLocaldtae);
 
     System.out.println(newLocaldtae.format(DateTimeFormatter.ofPattern("yy-MMM-dd")));
-
 
     // parse
     // format
@@ -86,9 +77,6 @@ public class DateExample {
     System.out.println(localDateTime);
 
     System.out.println(localDateTime.format(DateTimeFormatter.ofPattern("yyyy/MMM/dd hh:mm a")));
-
-
-
 
 
   }

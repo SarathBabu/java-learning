@@ -26,10 +26,10 @@ public class Cart {
 
     // use retail calculator to final amount calculations
 
-    if("US".equals("US")) {
+    if ("US".equals("US")) {
       INDRetailCalculator.getTax(productsInTheCart.get(0).fst);
       INDRetailCalculator.getCess(BigDecimal.valueOf(1244L));
-    }else {
+    } else {
       usRetailCalculator.getTax(productsInTheCart.get(0).fst);
       usRetailCalculator.getCess(BigDecimal.valueOf(1244L));
     }

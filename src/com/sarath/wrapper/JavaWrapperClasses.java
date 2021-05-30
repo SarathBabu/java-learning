@@ -2,8 +2,6 @@ package com.sarath.wrapper;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.Arrays;
-import sun.rmi.runtime.Log;
 
 public class JavaWrapperClasses {
 
@@ -98,10 +96,8 @@ public class JavaWrapperClasses {
     System.out.println(bd1);
     System.out.println(bdc);
 
-
     // Float, Long, Integer, Double, Boolean - Wrapper classes
     // BigInteger, BigDecimal
-
 
   }
 }

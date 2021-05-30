@@ -1,7 +1,5 @@
 package com.sarath.overriding;
 
-import java.util.Locale;
-
 public class Computation {
 
   public String execute(String problem) {

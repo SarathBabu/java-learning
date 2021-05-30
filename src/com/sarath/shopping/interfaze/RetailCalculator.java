@@ -10,7 +10,6 @@ public interface RetailCalculator {
   int getCess(BigDecimal totalPrice);
 }
 
-
 // Model POJO classes
 
 // Business logic classes  // use interfaces
